@@ -1,10 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include<stdio.h>
 int main()
 {
-    printf("My name is Maheshika\n");
-    printf("My school is Sujatha Vidyalaya,Nugegoda\n");
 
-    return 0;
+printf("*\n");
+printf("**\n");
+printf("***\n");
+printf("****\n");
+printf("*****\n");
+
+return 0;
 }
