@@ -1,28 +1,14 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+main()
 {
-    int num;
-    char name[15];
-    float numdec1;
-    double numdec2;
-
-    printf("Enter integer: ");
-    scanf("%d",&num);
-
-     printf("Enter your name: ");
-    scanf("%s",&name);
-
-    printf("Enter decimal number: ");
-    scanf("%f",&numdec1);
-
-    printf("Enter another decimal number: ");
-    scanf("%lf",&numdec2);
-
-    printf("%d \n",num);
-    printf("%.2f \n",numdec1);
-    printf("%.2f \n",numdec2);
-    printf("%s\n",name);
-
-
-	return 0;
+	printf("The color: %s\n", "blue");//The color:blue
+	printf("First number: %d\n", 12345);//1234
+	printf("Second number: %04d\n", 25);//0025
+	printf("Third number: %i\n", 1234);//1234
+	printf("Float number: %3.2f\n", 3.14159);//3.14
+	printf("Hexadecimal: %x\n", 255);//ff
+	printf("Octal: %o\n", 255);//377
+	printf("Unsigned value: %u\n", 150);//15
+	printf("Just print the percentage sign %%\n", 10);//%
 }
+
