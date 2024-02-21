@@ -1,1 +1,2 @@
-CS102.3 C Progarmming Lab Practicals
+CS102.3 C Progarmming 
+Lab Practicals
